@@ -184,6 +184,7 @@
 
 
 <!-- Google Analytics -->
+
 {% if site.ga_track_id %}
 <script>
     // dynamic User by Hux
@@ -200,6 +201,17 @@
     ga('send', 'pageview');
 </script>
 {% endif %}
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H100GH4EDV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-H100GH4EDV');
+</script>
+
 
 
 <!-- Baidu Tongji -->
