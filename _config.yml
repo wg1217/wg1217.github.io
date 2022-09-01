@@ -4,15 +4,15 @@ SEOTitle: wg的博客 | BY Blog                    #显示在浏览器上搜索�
 header-img: img/post-bg-desk.jpg                #显示在首页的背景图片
 email: 1072462953@qq.com                       
 description: "Just do it."                      #网站介绍
-keyword: "学习, 搬砖, 疲倦, 猝死ing"              #关键词
+keyword: "学习, 搬砖, 疲倦, 猝死ing"            #关键词
 url: "https://wg1217.github.io/"                #博客地址
 baseurl: ""                                     # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "git@github.com:wg1217/wg1217.github.io.git" # you code repository
 
 # Sidebar settings 侧边栏
-sidebar: true                                                        #是否开启侧边栏
+sidebar: true                                                           #是否开启侧边栏
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /     #个人头像 可以改成我在img文件夹中的两张备用照片 img/avatar-m 或 avatar-g
+sidebar-avatar: img/avatar-m.jpeg                                                     #个人头像 可以改成我在img文件夹中的两张备用照片 img/avatar-m 或 avatar-g
 
 
 # SNS settings  社交账号
