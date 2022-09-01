@@ -1,22 +1,21 @@
-# Site settings
-title: 搬砖日记
-SEOTitle: 博客 | BY Blog
-header-img: img/post-bg-desk.jpg
-email: 1072462953@qq.com
-description: "Every failure is leading towards success."
-keyword: "学习"
-url: "https://wg1217.github.io/"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+# Site settings 基础设置
+title: 搬砖日记                                 #博客的标题
+SEOTitle: wg的博客 | BY Blog                    #显示在浏览器上搜索的时候显示的标题
+header-img: img/post-bg-desk.jpg                #显示在首页的背景图片
+email: 1072462953@qq.com                       
+description: "Just do it."                      #网站介绍
+keyword: "学习, 搬砖, 疲倦, 猝死ing"              #关键词
+url: "https://wg1217.github.io/"                #博客地址
+baseurl: ""                                     # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "git@github.com:wg1217/wg1217.github.io.git" # you code repository
 
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+# Sidebar settings 侧边栏
+sidebar: true                                                        #是否开启侧边栏
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /     # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /     #个人头像 可以改成我在img文件夹中的两张备用照片 img/avatar-m 或 avatar-g
 
 
-
-# SNS settings 
+# SNS settings  社交账号
 RSS: false
 weibo_username:     
 zhihu_username:     
@@ -55,30 +54,28 @@ kramdown:
 
 
 
-# 评论系统
+# 评论系统  Disqus 评论插件加载不出来 使用Gitalk 评论插件
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username: 
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 51acb02f2403d60dfbd5                           #生成的clientID
+  enable: true                                              #是否开启Gitalk评论
+  clientID: 51acb02f2403d60dfbd5                            #生成的clientID
   clientSecret: 724592d7570dccb88ff87c950ac4bf6282a022dd    #生成的clientSecret
-  repo: wg1217.github.io    #仓库名称
-  owner: wg1217    #github用户名
+  repo: wg1217.github.io                                    #仓库名称
+  owner: wg1217                                             #github用户名
   admin: wg1217
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  distractionFreeMode: true                                 #是否启用类似FB的阴影遮罩
 
 
-# 统计
-
-# Analytics settings
+# Analytics settings 网站统计
 # Baidu Analytics
 ba_track_id: 5b8b0b9649b5046629dba4a836bb895a
 
 # Google Analytics
 ga_track_id: G-H100GH4EDV            # Format: UA-xxxxxx-xx
-ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto                      # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
