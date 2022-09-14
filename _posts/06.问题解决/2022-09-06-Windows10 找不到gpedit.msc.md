@@ -48,31 +48,31 @@ pause
 
 1. 如图所示 打开组策略报错这个东东
 
-   ![win10找不到组策略gpedit.msc怎么办](https://exp-picture.cdn.bcebos.com/7d34fbf4fcf5ee0d26381464f96b0ce264e7ba49.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1%2Fformat%2Cf_auto%2Fquality%2Cq_80)
+   ![win10找不到组策略gpedit.msc怎么办](https://raw.githubusercontent.com/wg1217/picbed/main/202209132354525.jpg)
 
    
 
 2. 按住快捷键Win+R打开运行窗口，输入“regedit”，这样就打开了注册表编辑器，如图：
 
-   ![win10找不到组策略gpedit.msc怎么办](https://exp-picture.cdn.bcebos.com/ab966c6b0ce265e715f9dacb9f23beb9773eb749.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1%2Fformat%2Cf_auto%2Fquality%2Cq_80)
+   ![win10找不到组策略gpedit.msc怎么办](https://raw.githubusercontent.com/wg1217/picbed/main/202209132354526.jpg)
 
    
 
 3. 点开注册表
 
-   ![win10找不到组策略gpedit.msc怎么办](https://exp-picture.cdn.bcebos.com/bff8683e21c2bbd6c926d35b116186254093ae49.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1%2Fformat%2Cf_auto%2Fquality%2Cq_80)
+   ![win10找不到组策略gpedit.msc怎么办](https://raw.githubusercontent.com/wg1217/picbed/main/202209132354527.jpg)
 
    
 
 4. 在编辑器左侧依次找到HKEY_CURRENT_USER\Software\Policies\Microsoft\MMC，然后将RestrictToPermittedSnapins的值设置为0，如图。
 
-   ![win10找不到组策略gpedit.msc怎么办](https://exp-picture.cdn.bcebos.com/9b2098254193cee89ef2eaa85a0ff2260c9aa849.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1%2Fformat%2Cf_auto%2Fquality%2Cq_80)
+   ![win10找不到组策略gpedit.msc怎么办](https://raw.githubusercontent.com/wg1217/picbed/main/202209132354528.jpg)
 
    
 
 5. 把这里的值改成 0
 
-   ![win10找不到组策略gpedit.msc怎么办](https://exp-picture.cdn.bcebos.com/b1454a1bd10ff2263f6c8fbd9c99e92abbb8a449.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1%2Fformat%2Cf_auto%2Fquality%2Cq_80)
+   ![win10找不到组策略gpedit.msc怎么办](https://raw.githubusercontent.com/wg1217/picbed/main/202209132354529.jpg)
 
    
 
@@ -82,12 +82,12 @@ pause
    Windows Registry Editor Version 5.00[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Group Policy Objects\LocalUser\Software\Policies\Microsoft\MMC][-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Group Policy Objects\LocalUser\Software\Policies\Microsoft\MMC\{8FC0B734-A0E1-11D1-A7D3-0000F87571E3}]"Restrict_Run"=dword:00000000[HKEY_CURRENT_USER\Software\Policies\Microsoft\MMC][-HKEY_CURRENT_USER\Software\Policies\Microsoft\MMC\{8FC0B734-A0E1-11D1-A7D3-0000F87571E3}]"Restrict_Run"=dword:00000000[HKEY_CURRENT_USER\Software\Policies\Microsoft\MMC]"RestrictToPermittedSnapins"=dword:00000000
    ```
 
-   ![win10找不到组策略gpedit.msc怎么办](https://exp-picture.cdn.bcebos.com/304f0999e92abab875b6d44d4814f1c594eea149.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1%2Fformat%2Cf_auto%2Fquality%2Cq_80)
+   ![win10找不到组策略gpedit.msc怎么办](https://raw.githubusercontent.com/wg1217/picbed/main/202209132354530.jpg)
 
    
 
 7. 复制粘贴以后，将文件后缀名更改为.reg，点击运行以后就可以找到了，重启电脑以后再次输入gpedit.msc命令就可以打开组策略了，大家可以试试。
 
-   ![win10找不到组策略gpedit.msc怎么办](https://exp-picture.cdn.bcebos.com/e86ba4b842406afefae24f761eee41c1b6279f49.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1%2Fformat%2Cf_auto%2Fquality%2Cq_80)。
+   ![win10找不到组策略gpedit.msc怎么办](https://raw.githubusercontent.com/wg1217/picbed/main/202209132354531.jpg)。
 
    
